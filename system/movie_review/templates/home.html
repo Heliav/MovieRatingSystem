@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home | MovieVerse{% endblock %}
+
+{% block content %}
+<header class="hero-home" style="background-image: url('{% static "images/test2.jpeg" %}');">
+  <div class="overlay-dark">
+    <div class="hero-content">
+      <h1 class="logo-glow">MovieVerse</h1>
+      <p class="tagline">Dive into the world of cinema. Rate. Review. Discover.</p>
+      <a href="/movies/" class="button">Browse Movies</a>
+    </div>
+  </div>
+</header>
+
+<section class="section trending">
+  <h2>🔥 Trending Movies</h2>
+  <div class="movie-grid">
+    <div class="movie-thumb">🎥 Movie 1</div>
+    <div class="movie-thumb">🎥 Movie 2</div>
+    <div class="movie-thumb">🎥 Movie 3</div>
+  </div>
+</section>
+{% endblock %}

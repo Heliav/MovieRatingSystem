@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Movie Review{% endblock %}</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">  {# This line is for page-specific styles #}
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="/">🎬 MovieVerse</a></div>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/movies/">Movies</a></li>
+        <li><a href="/genres/">Genres</a></li>
+        <li><a href="/login/">Login</a></li>
+        <li><a href="/signup/">Signup</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+</body>
+</html>

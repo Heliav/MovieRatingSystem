@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Movie List</title>
+  <link rel="stylesheet" href="{% static 'movie_review/css/style.css' %}">
+</head>
+<body>
+  <h1>Movie List</h1>
+  <div class="movie-list">
+    {% for movie in movies %}
+      <div class="movie-card">
+        <h2>{{ movie.name }}</h2>
+        <p><strong>Director:</strong> {{ movie.director }}</p>
+        <p><strong>Cast:</strong> {{ movie.cast }}</p>
+        <p><strong>Release Date:</strong> {{ movie.release_date }}</p>
+        <p><strong>Description:</strong> {{ movie.description }}</p>
+        <p><strong>Rating:</strong> {{ movie.rating }}</p>
+        {% if movie.image %}
+          <img src="{{ movie.image }}" alt="{{ movie.name }}" width="200">
+        {% endif %}
+      </div>
+    {% empty %}
+      <p>No movies found.</p>
+    {% endfor %}
+  </div>
+  <script src="{% static 'movie_review/js/main.js' %}"></script>
+</body>
+</html>
