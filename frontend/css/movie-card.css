@@ -1,0 +1,45 @@
+/* movie-card.css (for main page) */
+
+/* Movie grid wrapper */
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center; /* CENTER the movies */
+  padding: 20px 0;
+}
+
+/* Movie Card */
+.movie-card {
+  background-color: #181818;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(245, 197, 24, 0.6);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-card h3 {
+  margin: 10px 0 4px;
+  font-size: 1.1rem;
+  color: #f5c518;
+  text-align: center;
+}
+
+.movie-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 10px;
+}

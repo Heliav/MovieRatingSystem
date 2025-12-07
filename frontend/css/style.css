@@ -1,0 +1,16 @@
+@import url('reset.css');
+@import url('layout.css');
+@import url("buttons.css");
+@import url("movie-card.css");
+@import url("navbar.css");
+@import url("search-bar.css");
+@import url("animations.css");
+@import url("modal.css");
+@import url("comments.css");
+@import url('hero.css');
+@import url('browse.css');
+@import url('movie-detail.css');
+@import url('auth.css');
+@import url('ratings.css');
+@import url('favorites.css');
+@import url('profile.css');

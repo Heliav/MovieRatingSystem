@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieVerse | Browse Movies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">🎬 MovieVerse</a></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="browse.html" class="active">Movies</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="browse-section">
+    <h2>🎥 Browse Movies</h2>
+    <div class="search-bar">
+      <input type="text" id="movieSearch" placeholder="Search movies..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="movie-grid" id="movieGrid">
+      <!-- Movies will be rendered here -->
+    </div>
+  </section>
+</main>
+
+<script src="js/browse.js"></script>
+</body>
+</html>

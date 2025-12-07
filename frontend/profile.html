@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile - MovieVerse</title>
+  <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <img src="images/test1.jpg" alt="Avatar" class="avatar">
+      <div class="user-info">
+        <h2 id="username">MovieFan123</h2>
+        <button id="edit-username-btn" class="btn-red">Edit</button>
+
+        <!-- Edit Profile Modal -->
+        <div id="edit-profile-modal" class="modal hidden">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit Profile</h2>
+            <form id="edit-profile-form" enctype="multipart/form-data">
+              <label for="avatar-upload">Avatar</label>
+              <input type="file" id="avatar-upload" accept="image/*" />
+
+              <label for="edit-name">Username</label>
+              <input type="text" id="edit-name" placeholder="Enter your name" />
+
+              <label for="edit-bio">Bio</label>
+              <textarea id="edit-bio" rows="4" placeholder="Write something about yourself..."></textarea>
+
+              <div class="modal-actions">
+                <button type="submit" class="save-btn">Save</button>
+                <button type="button" class="cancel-btn">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <button id="logout-btn" class="btn-red">Logout</button>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="profile-stats">
+      <div class="stat">
+        <h3>Movies Watched</h3>
+        <p id="movies-watched">5</p>
+      </div>
+      <div class="stat">
+        <h3>Favorites</h3>
+        <p id="favorites-count">3</p>
+      </div>
+      <div class="stat">
+        <h3>Reviews</h3>
+        <p id="reviews-count">2</p>
+      </div>
+    </div>
+
+    <!-- Watchlist -->
+    <div class="profile-section">
+      <h2>My Watchlist</h2>
+      <div class="movie-grid" id="watchlist">
+        <!-- Example Movies -->
+        <div class="movie-card"><img src="images/interstellar.jpeg" alt="Interstellar"></div>
+        <div class="movie-card"><img src="images/matrix.jpeg" alt="Matrix"></div>
+        <div class="movie-card"><img src="images/inception.jpeg" alt="Inception"></div>
+      </div>
+    </div>
+
+    <!-- Favorites -->
+    <div class="profile-section">
+      <h2>My Favorites</h2>
+      <div class="movie-grid" id="favorites">
+        <div class="movie-card"><img src="images/interstellar.jpeg" alt="Interstellar"></div>
+        <div class="movie-card"><img src="images/joker.jpeg" alt="Joker"></div>
+      </div>
+    </div>
+
+    <!-- Reviews -->
+    <div class="profile-section">
+      <h2>My Reviews</h2>
+      <div class="review-list" id="reviews">
+        <div class="review-entry">
+          <div class="movie-title">Oppenheimer</div>
+          <p>Amazing film with a brilliant story. Absolutely loved the cinematography!</p>
+        </div>
+        <div class="review-entry">
+          <div class="movie-title">Dune</div>
+          <p>Epic visuals and music! Some parts were slow, but overall a masterpiece.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Settings -->
+    <div class="profile-section">
+      <h2>Settings</h2>
+      <div class="settings">
+        <button id="clear-data-btn" class="btn-red">Clear My Data</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>

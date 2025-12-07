@@ -1,0 +1,71 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgba(229, 9, 20, 0.7);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .logo a:hover {
+  background-color: rgba(229, 9, 20, 1);
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar .nav-links a {
+  color: #bbb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #fff;
+}
+
+/* Responsive navbar */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1e1e1e;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    display: none;
+    padding: 16px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .navbar .toggle-btn {
+    display: block;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+/* Hide toggle on desktop */
+.toggle-btn {
+  display: none;
+  font-size: 24px;
+}

@@ -1,0 +1,80 @@
+/* comments.css */
+
+/* Comment Section Container */
+.comment-section {
+  margin-top: 40px;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 700px;
+}
+
+/* Comment Form */
+.comment-form textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 80px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #333;
+  color: #eee;
+}
+
+.comment-form button {
+  margin-top: 10px;
+  background-color: #00bcd4;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.comment-form button:hover {
+  background-color: #0097a7;
+}
+
+/* Comment List */
+.comment-list {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.comment-item {
+  background: #2a2a2a;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+.comment-item .author {
+  font-weight: 600;
+  color: #00bcd4;
+  margin-bottom: 6px;
+}
+
+.comment-item .date {
+  font-size: 0.85rem;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.comment-item .text {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* No Comments Text */
+.no-comments {
+  color: #777;
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+}
+

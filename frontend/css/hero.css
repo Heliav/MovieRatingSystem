@@ -1,0 +1,37 @@
+/* Hero Section */
+.netflix-style {
+  background-image: url('../images/marvel.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.netflix-style::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text .tagline {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}

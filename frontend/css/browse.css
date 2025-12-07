@@ -1,0 +1,21 @@
+/* Browse Page */
+.browse-section {
+  padding: 60px 40px;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.browse-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #f5c518;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieVerse | Movie Details</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/movie-card.css">
+  <link rel="stylesheet" href="css/movie-detail.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">🎬 MovieVerse</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html">Movies</a></li>
+        <li class="dropdown">
+          <a href="#">Genres ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Drama</a></li>
+            <li><a href="#">Sci-Fi</a></li>
+            <li><a href="#">Comedy</a></li>
+          </ul>
+        </li>
+        <li class="dropdown user-menu" id="userMenu" style="display:none;">
+          <a href="#">Profile ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="#" id="logoutBtn">Logout</a></li>
+          </ul>
+        </li>
+        <li id="loginLink"><a href="login.html">Login</a></li>
+        <li id="signupLink"><a href="signup.html">Signup</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="movieHero" class="movie-hero" style="display:none;">
+      <div class="movie-poster-container">
+        <img id="moviePoster" class="movie-poster" src="" alt="Movie Poster">
+      </div>
+      <div class="movie-info-container">
+        <h1 id="movieTitle">Loading...</h1>
+        <div class="movie-meta">
+          <span id="movieRating">⭐ 0</span> |
+          <span id="movieYear">—</span>
+        </div>
+        <div id="movieGenre" class="genre-tags"></div>
+        <p id="movieDesc">Description...</p>
+        <p id="movieDirector"><strong>Director:</strong> —</p>
+        <p id="movieCast"><strong>Cast:</strong> —</p>
+        <div class="movie-buttons">
+          <button id="trailerBtn" class="btn primary-btn">Watch Trailer</button>
+          <button id="watchlistBtn" class="btn secondary-btn">Add to Watchlist</button>
+          <button id="favoriteBtn" class="btn secondary-btn">Add to Favorites</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="comments-section">
+      <h2>Comments & Reviews</h2>
+      <form id="commentForm" class="comment-form">
+        <textarea id="commentText" placeholder="Your comment" required></textarea>
+        <select id="commentStars" required>
+          <option value="">Rating</option>
+          <option value="1">★☆☆☆☆</option>
+          <option value="2">★★☆☆☆</option>
+          <option value="3">★★★☆☆</option>
+          <option value="4">★★★★☆</option>
+          <option value="5">★★★★★</option>
+        </select>
+        <button type="submit" class="btn primary-btn">Submit Review</button>
+      </form>
+      <ul id="commentsList" class="reviews-list"></ul>
+    </section>
+  </main>
+
+  <!-- Trailer Modal -->
+  <div id="trailerModal" class="modal">
+    <div class="modal-content">
+      <span id="closeTrailer" class="close">&times;</span>
+      <iframe id="trailerFrame" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/movie.js"></script>
+</body>
+</html>

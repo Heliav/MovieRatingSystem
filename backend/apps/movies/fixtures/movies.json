@@ -1,0 +1,242 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Interstellar",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "poster": "https://m.media-amazon.com/images/I/81kzH0DBA7L._AC_SY679_.jpg",
+      "release_date": "2014-11-07",
+      "genre": "Sci-Fi, Adventure, Drama",
+      "rating": 8.6,
+      "director": "Christopher Nolan",
+      "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+      "trailer_url": "https://www.youtube.com/embed/zSWdZVtXT7E",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea.",
+      "poster": "https://m.media-amazon.com/images/I/51oDqj10KkL._AC_.jpg",
+      "release_date": "2010-07-16",
+      "genre": "Sci-Fi, Action, Thriller",
+      "rating": 8.8,
+      "director": "Christopher Nolan",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+      "trailer_url": "https://www.youtube.com/embed/YoHD9XEInc0",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "The Matrix",
+      "description": "A hacker discovers the world is a simulated reality and joins a rebellion against its controllers.",
+      "poster": "https://m.media-amazon.com/images/I/51EG732BV3L.jpg",
+      "release_date": "1999-03-31",
+      "genre": "Sci-Fi, Action",
+      "rating": 8.7,
+      "director": "Lana & Lilly Wachowski",
+      "cast": "Keanu Reeves, Carrie-Anne Moss, Laurence Fishburne",
+      "trailer_url": "https://www.youtube.com/embed/vKQi3bBA1y8",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "title": "The Dark Knight",
+      "description": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham City into chaos.",
+      "poster": "https://m.media-amazon.com/images/I/51EbJjlUyaL._AC_.jpg",
+      "release_date": "2008-07-18",
+      "genre": "Action, Crime, Drama",
+      "rating": 9.0,
+      "director": "Christopher Nolan",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "trailer_url": "https://www.youtube.com/embed/EXeTwQWrcwY",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Avatar",
+      "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following orders and protecting an alien civilization.",
+      "poster": "https://m.media-amazon.com/images/I/41kTVLeW1CL._AC_.jpg",
+      "release_date": "2009-12-18",
+      "genre": "Sci-Fi, Adventure",
+      "rating": 7.9,
+      "director": "James Cameron",
+      "cast": "Sam Worthington, Zoe Saldana, Sigourney Weaver",
+      "trailer_url": "https://www.youtube.com/embed/5PSNL1qE6VY",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+      "title": "Avengers: Endgame",
+      "description": "The Avengers assemble once more to undo the damage caused by Thanos and restore balance to the universe.",
+      "poster": "https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_SY679_.jpg",
+      "release_date": "2019-04-26",
+      "genre": "Action, Adventure, Sci-Fi",
+      "rating": 8.4,
+      "director": "Anthony & Joe Russo",
+      "cast": "Robert Downey Jr., Chris Evans, Mark Ruffalo",
+      "trailer_url": "https://www.youtube.com/embed/TcMBFSGVi1c",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+      "title": "Joker",
+      "description": "In Gotham City, a mentally troubled comedian embarks on a downward spiral of revolution and bloody crime.",
+      "poster": "https://m.media-amazon.com/images/I/71l5oi9Tt6L._AC_SY679_.jpg",
+      "release_date": "2019-10-04",
+      "genre": "Crime, Drama, Thriller",
+      "rating": 8.4,
+      "director": "Todd Phillips",
+      "cast": "Joaquin Phoenix, Robert De Niro, Zazie Beetz",
+      "trailer_url": "https://www.youtube.com/embed/zAGVQLHvwOY",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8,
+    "fields": {
+      "title": "Dune",
+      "description": "Paul Atreides, a brilliant young man, must travel to the most dangerous planet in the universe to ensure the future of his family and people.",
+      "poster": "https://m.media-amazon.com/images/I/91mOYhh4-CL._AC_SY679_.jpg",
+      "release_date": "2021-10-22",
+      "genre": "Sci-Fi, Adventure, Drama",
+      "rating": 8.2,
+      "director": "Denis Villeneuve",
+      "cast": "Timothée Chalamet, Rebecca Ferguson, Oscar Isaac",
+      "trailer_url": "https://www.youtube.com/embed/8g18jFHCLXk",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Oppenheimer",
+      "description": "The story of J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
+      "poster": "https://m.media-amazon.com/images/I/81lA+KJt5-L._AC_SY679_.jpg",
+      "release_date": "2023-07-21",
+      "genre": "Biography, Drama, History",
+      "rating": 8.5,
+      "director": "Christopher Nolan",
+      "cast": "Cillian Murphy, Emily Blunt, Matt Damon",
+      "trailer_url": "https://www.youtube.com/embed/FZ7j3H4-cpE",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10,
+    "fields": {
+      "title": "Titanic",
+      "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "poster": "https://m.media-amazon.com/images/I/51rOnIjLqzL._AC_.jpg",
+      "release_date": "1997-12-19",
+      "genre": "Drama, Romance",
+      "rating": 7.8,
+      "director": "James Cameron",
+      "cast": "Leonardo DiCaprio, Kate Winslet, Billy Zane",
+      "trailer_url": "https://www.youtube.com/embed/kVrqfYjkTdQ",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11,
+    "fields": {
+      "title": "Gladiator",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "poster": "https://m.media-amazon.com/images/I/51A9uD0nFEL._AC_.jpg",
+      "release_date": "2000-05-05",
+      "genre": "Action, Adventure, Drama",
+      "rating": 8.5,
+      "director": "Ridley Scott",
+      "cast": "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
+      "trailer_url": "https://www.youtube.com/embed/owK1qxDselE",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 12,
+    "fields": {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "description": "A meek Hobbit and eight companions set out on a journey to destroy a powerful ring and save Middle-earth.",
+      "poster": "https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg",
+      "release_date": "2001-12-19",
+      "genre": "Adventure, Fantasy",
+      "rating": 8.8,
+      "director": "Peter Jackson",
+      "cast": "Elijah Wood, Ian McKellen, Viggo Mortensen",
+      "trailer_url": "https://www.youtube.com/embed/V75dMMIW2B4",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13,
+    "fields": {
+      "title": "Star Wars: A New Hope",
+      "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee, and two droids to save the galaxy from the Empire.",
+      "poster": "https://m.media-amazon.com/images/I/51nbVEuw1HL._AC_.jpg",
+      "release_date": "1977-05-25",
+      "genre": "Action, Adventure, Sci-Fi",
+      "rating": 8.6,
+      "director": "George Lucas",
+      "cast": "Mark Hamill, Harrison Ford, Carrie Fisher",
+      "trailer_url": "https://www.youtube.com/embed/vZ734NWnAHA",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14,
+    "fields": {
+      "title": "The Lion King",
+      "description": "Lion prince Simba is to succeed his father, but after his uncle's betrayal, he flees and grows up in exile before returning.",
+      "poster": "https://m.media-amazon.com/images/I/51X1kYOEBQL._AC_.jpg",
+      "release_date": "1994-06-15",
+      "genre": "Animation, Adventure, Drama",
+      "rating": 8.5,
+      "director": "Roger Allers, Rob Minkoff",
+      "cast": "Matthew Broderick, Jeremy Irons, James Earl Jones",
+      "trailer_url": "https://www.youtube.com/embed/4sj1MT05lAA",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 15,
+    "fields": {
+      "title": "Jurassic Park",
+      "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaurs to escape and wreak havoc.",
+      "poster": "https://m.media-amazon.com/images/I/51oXkwqLJmL._AC_.jpg",
+      "release_date": "1993-06-11",
+      "genre": "Adventure, Sci-Fi, Thriller",
+      "rating": 8.1,
+      "director": "Steven Spielberg",
+      "cast": "Sam Neill, Laura Dern, Jeff Goldblum",
+      "trailer_url": "https://www.youtube.com/embed/QWBKEmWWL38",
+      "created_at": "2023-09-30T12:00:00Z"
+    }
+  }
+]

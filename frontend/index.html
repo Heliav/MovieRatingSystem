@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MovieVerse | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/movie-card.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">🎬 MovieVerse</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="browse.html">Movies</a></li>
+        <li class="dropdown">
+          <a href="#">Genres ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Drama</a></li>
+            <li><a href="#">Sci-Fi</a></li>
+            <li><a href="#">Comedy</a></li>
+          </ul>
+        </li>
+        <li class="dropdown user-menu" id="userMenu" style="display:none;">
+          <a href="#">Profile ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="#" id="logoutBtn">Logout</a></li>
+          </ul>
+        </li>
+        <li id="loginLink"><a href="login.html">Login</a></li>
+        <li id="signupLink"><a href="signup.html">Signup</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="netflix-style">
+      <div class="hero-text">
+        <h1>🎬 MovieVerse</h1>
+        <p class="tagline">Dive into the world of cinema. Rate. Review. Discover.</p>
+        <a href="browse.html" class="button pulse">Browse Movies</a>
+      </div>
+    </section>
+
+    <section class="section trending">
+      <h2>🔥 Trending Movies</h2>
+      <div class="movie-grid" id="trendingMovies">
+        <!-- Movies injected dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
